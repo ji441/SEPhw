@@ -1,0 +1,61 @@
+--problem1
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        for(int i = 0;i<nums.Length;i++){
+            for(int j =i+1;j<nums.Length;j++){
+                if (nums[i]+nums[j] == target){
+                    int[] res = {i,j};
+                    return res;
+                }
+            }
+        }
+        return null;
+    }
+}
+--p9
+public class Solution {
+    public bool IsPalindrome(int x) {
+        string s = Convert.ToString(x);
+        string rs = "";
+        for(int i = s.Length-1;i>=0;i--){
+            rs += s[i];
+        }
+        return rs == s;
+    }
+}
+--p217
+public class Solution {
+    public bool ContainsDuplicate(int[] nums) {
+        Dictionary<int,int> freqmap = new Dictionary<int,int>();
+        foreach(int x in nums){
+            if(freqmap.ContainsKey(x)){
+                return true;
+            }
+            else{
+                freqmap[x] = 1;
+            }
+        }
+        return false;
+    }
+}
+--p412
+public class Solution {
+    public IList<string> FizzBuzz(int n) {
+        var res = new string[n];
+        for(int x = 1;x<=n;x++){
+            if(x % 3 == 0 && x%5 ==0){
+                res[x-1] = "FizzBuzz";
+            }
+            else if(x%3 == 0){
+                res[x-1] = "Fizz";
+            }
+            else if(x%5 == 0){
+                res[x-1] = "Buzz";
+            }
+            else{
+                res[x-1] = Convert.ToString(x);
+            }
+        }
+        return res;
+    }
+}

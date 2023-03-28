@@ -1,0 +1,23 @@
+A person’s telephone number : string
+A person’s height : float
+A person’s age: byte
+A person’s gender (Male, Female, Prefer Not To Answer): enum
+A person’s salary: float
+A book’s ISBN: string
+A book’s price: float
+A book’s shipping weight: byte
+A country’s population: long int
+The number of stars in the universe: long int
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business): int
+
+2. What are the difference between value type and reference type variables?
+value type hold the value directly in stack, reference type hold the memory address of variable and variable stroed in heap
+3. What happens when you divide an int variable by 0?
+you get -nan error
+4. What happens when you divide a double variable by 0?
+you getr -nan error
+5. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+data will be lost, the most significant digit is lost. and by default C# does not throw exception
+when overflow of integer happens.
