@@ -1,0 +1,42 @@
+public class Solution {
+    public IList<IList<int>> ThreeSum(int[] nums) {
+        List<IList<int>> res = new List<IList<int>>();
+        Array.Sort(nums);//sort the numbers we can use 2 pointer method
+        int k = 0;
+        while(k<nums.Length){
+            int target = -nums[k];
+            //now we find the rest 2 in the rest right numbers
+            int left= k+1;
+            int right = nums.Length-1;
+            while(left < right){
+                int twosum = nums[left] + nums[right];
+                //if we find a suitable result push it into res
+                if(twosum == target){
+                    var tempres = new List<int>(){nums[k],nums[left],nums[right]};
+                    res.Add(tempres);
+                    //remove duplicates of j,k
+                    while(left<right && nums[left] == tempres[1]){
+                        left++;
+
+                    }
+                    while(left<right && nums[right] == tempres[2]){
+                        right--;
+                    }
+                }
+                else if(twosum < target){
+                    left++;
+                }
+                else{
+                    right--;
+                }
+            }
+            //remove duplicates of i
+            int currentnum = nums[k];
+            while(k<nums.Length && nums[k] == currentnum){
+                k++;
+            }
+        
+        }
+        return res;
+    }
+}

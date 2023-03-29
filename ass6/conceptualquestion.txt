@@ -1,0 +1,78 @@
+1.. What are the six combinations of access modifier keywords and what do they do?
+    they are: public, protected internal, protected, internal , private protected, private
+    public can be accessed anywhere, 
+    protected internal can be conly accessed in the same assembly and the
+    derived class in outside current assembly, 
+    protected can be accessed within class and all derived class,
+    internal can be accessed within class and anywhere in the same assembly
+    private protected can be accessed in the derived calss in the same assembly
+    private can be accessed only in the current class.
+2.What is the difference between the static, const, and readonly keywords when applied to a type member?
+static is used when a type member is class level, i.e. not bound to instance of current class.
+const is used when we do not want a member to be changed, we must provide the actual value when declaration.
+and const is stored in stack since it is determined at complie time
+readonly is also used when we do not want a memeber to be changed, but we can assign value at time of declaration or in constructor.
+this is stored in heap.
+3. What does a constructor do?
+initializa an instance of a class
+4. Why is the partial keyword useful?
+ It provides a special ability to implement the functionality of a single class into multiple files 
+ and all these files are combined into a single class file when the application is compiled.
+ so with the help of partial classes, multiple developers can work simultaneously in the same class in different files.
+
+5. What is a tuple?
+it is like an ummutable Array, that can sotre different data types. like (1,2,"3")
+6. What does the C# record keyword do?
+it is used to define a reference type that provides buil-in functionality for encapsulating data.
+7. What does overloading and overriding mean?
+overloading means allow functions with same name but different input parameters to accomplish Polymorphism. happen at compile time
+overriding means function in derived class is used instead of the same function in parent class. happens at run time
+8. What is the difference between a field and a property?
+field is variable directly defined in a class.
+while property is defined with get and set , and used to read and write values of a field.
+
+9. How do you make a method parameter optional?
+we can assign the optional parameter a initial value in function signature.
+
+10. What is an interface and how is it different from abstract class?
+interface only contains abstract method,and support multiple inheritance
+abstract class can have concrete method, and does Not support multiple inheritance
+
+11. What accessibility level are members of an interface?
+they are public since they need implementation to be meaningful
+
+12. True/False. Polymorphism allows derived classes to provide different implementations
+of the same method. True
+
+13. True/False. The override keyword is used to indicate that a method in a derived class is
+providing its own implementation of a method. True
+
+14. True/False. The new keyword is used to indicate that a method in a derived class is
+providing its own implementation of a method. F
+
+15. True/False. Abstract methods can be used in a normal (non-abstract) class. F
+
+16.True/False. Normal (non-abstract) methods can be used in an abstract class. T
+
+17. True/False.Derived classes can override methods that were virtual in the base class.  T
+
+18. True/False.Derived classes can override methods that were abstract in the base class. T
+
+19. True/False.In a derived class, you can override a method that was neither virtual non abstract in the
+base class. F
+
+20. True/False. A class that implements an interface does not have to provide an
+implementation for all of the members of the interface. F
+
+21. True/False. A class that implements an interface is allowed to have other members that
+aren’t defined in the interface. T
+
+22. True/False. A class can have more than one base class. F
+
+23. True/False. A class can implement more than one interface. T
+
+What is meant by the terms managed resource and unmanaged resource in .NET
+managed resource means it is under the supervision of automatic memory manager where as unmanaged is not. So garbage collector only works on managed resource
+
+24. What's the purpose of Garbage Collector in .NET?
+it helps you save memory, use memory more efficiently, clean up unused memory allocate.
