@@ -1,0 +1,15 @@
+D:\universityhomework\SEP-antra\c#\programcs\programcs\bin\Debug\net6.0\ConsoleDay1.exe
+D:\universityhomework\SEP-antra\c#\programcs\programcs\bin\Debug\net6.0\ConsoleDay1.deps.json
+D:\universityhomework\SEP-antra\c#\programcs\programcs\bin\Debug\net6.0\ConsoleDay1.runtimeconfig.json
+D:\universityhomework\SEP-antra\c#\programcs\programcs\bin\Debug\net6.0\ConsoleDay1.dll
+D:\universityhomework\SEP-antra\c#\programcs\programcs\bin\Debug\net6.0\ConsoleDay1.pdb
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.csproj.AssemblyReference.cache
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.GeneratedMSBuildEditorConfig.editorconfig
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.AssemblyInfoInputs.cache
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.AssemblyInfo.cs
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.csproj.CoreCompileInputs.cache
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.dll
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\refint\ConsoleDay1.dll
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.pdb
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ConsoleDay1.genruntimeconfig.cache
+D:\universityhomework\SEP-antra\c#\programcs\programcs\obj\Debug\net6.0\ref\ConsoleDay1.dll
