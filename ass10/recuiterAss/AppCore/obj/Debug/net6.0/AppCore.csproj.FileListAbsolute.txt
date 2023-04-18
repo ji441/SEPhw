@@ -1,0 +1,12 @@
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\bin\Debug\net6.0\AppCore.deps.json
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\bin\Debug\net6.0\AppCore.dll
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\bin\Debug\net6.0\AppCore.pdb
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.csproj.AssemblyReference.cache
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.AssemblyInfoInputs.cache
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.AssemblyInfo.cs
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.csproj.CoreCompileInputs.cache
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.dll
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\refint\AppCore.dll
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\AppCore.pdb
+D:\universityhomework\SEP-antra\homeworks\ass10\recuiterAss\AppCore\obj\Debug\net6.0\ref\AppCore.dll

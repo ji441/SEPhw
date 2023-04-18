@@ -1,19 +1,16 @@
-using ApplicationCore.Contracts.Repositories;
-using ApplicationCore.Entities;
 using Infrastructure.Data;
-using Infrastructure.Repositories;
-using Infrastructure.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<IRepository<Departments>,DepartmentRepository>();
-builder.Services.AddSingleton<IRepository<Employees>, EmployeeRepository>();
-builder.Services.AddScoped<IDepartmentService, DepartmentService>();
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddSingleton<DapperDbContext, DapperDbContext>();
-
-
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<RecruitingDbContext>(options =>
+{
+    options.UseQueryTrackingBehavior(Microsoft.EntityFrameworkCore.QueryTrackingBehavior.NoTracking);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDb"));
+}
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
