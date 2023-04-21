@@ -1,0 +1,12 @@
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\bin\Debug\net6.0\Recruiting.ApplicationCore.deps.json
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\bin\Debug\net6.0\Recruiting.ApplicationCore.dll
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\bin\Debug\net6.0\Recruiting.ApplicationCore.pdb
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.csproj.AssemblyReference.cache
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.AssemblyInfoInputs.cache
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.AssemblyInfo.cs
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.dll
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\refint\Recruiting.ApplicationCore.dll
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\Recruiting.ApplicationCore.pdb
+D:\universityhomework\SEP-antra\homeworks\HRMrecruitingProject\HrmRecruitingProj\ApplicationCore\obj\Debug\net6.0\ref\Recruiting.ApplicationCore.dll
